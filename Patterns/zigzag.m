@@ -14,14 +14,6 @@ function out=zigzag(in)
 % OUT=
 %	1     2     3     4     5     6     7     8     9    10    11    12
 
-%
-%
-% Oluwadamilola (Damie) Martins Ogunbiyi
-% University of Maryland, College Park
-% Department of Electrical and Computer Engineering
-% Communications and Signal Processing
-% 22-March-2010
-% Copyright 2009-2010 Black Ace of Diamonds.
 
 [num_rows num_cols]=size(in);
 
