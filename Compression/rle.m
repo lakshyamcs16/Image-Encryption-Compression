@@ -6,10 +6,7 @@ function data = rle(x)
 %
 %   Decompression:
 %      if x is a cell array, data contains the uncompressed values
-%
-%      Version 1.0 by Stefan Eireiner (<a href="mailto:stefan-e@web.de?subject=rle">stefan-e@web.de</a>)
-%      based on Code by Peter J. Acklam
-%      last change 14.05.2004
+
 
 if iscell(x) % decoding
 	i = cumsum([ 1 x{2} ]);
