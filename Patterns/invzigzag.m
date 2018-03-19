@@ -17,15 +17,6 @@ function out=invzigzag(in,num_rows,num_cols)
 %	7     8     9
 %	10    11    12
 
-%
-%
-% Oluwadamilola (Damie) Martins Ogunbiyi
-% University of Maryland, College Park
-% Department of Electrical and Computer Engineering
-% Communications and Signal Processing
-% 22-March-2010
-% Copyright 2009-2010 Black Ace of Diamonds.
-
 tot_elem=length(in);
 
 if nargin>3
